@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-menu, footer {
+    background: #0C4B33;
+}
+
+.navbar-brand, .top-menu .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.navbar-brand:hover, .top-menu .nav-item .nav-link:hover {
+    color: #44B78B;
+}
+
+.link-a{
+    color:#000;
+}
+
+.link-a:hover{
+    color:#44B78B;
+    text-decoration: none;
+}
+
+
+/* footer */
+footer {
+    color: #fff;
+}

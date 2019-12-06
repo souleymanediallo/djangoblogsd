@@ -1,0 +1,8 @@
+<div class="list-group">
+  <a href="{% url 'blog:home' %}" class="list-group-item list-group-item-action active bg-success">
+    Catégories
+  </a>
+    {% for cat in categories %}
+  <a href="{% url 'blog:post_list' cat.slug %}" class="list-group-item list-group-item-action">{{ cat.name }}</a>
+    {% endfor %}
+</div>
